@@ -90,7 +90,7 @@ namespace Gibbed.TinyTinaAoDK.FileFormats
         {
             return platform == Platform.PC ||
                    platform == Platform.X360 ||
-                   platform == Platform.PS3;
+                   platform == Platform.PS4;
         }
 
         public void Serialize(Stream output)

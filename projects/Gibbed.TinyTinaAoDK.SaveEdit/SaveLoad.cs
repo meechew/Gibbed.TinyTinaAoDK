@@ -71,7 +71,7 @@ namespace Gibbed.TinyTinaAoDK.SaveEdit
                               .AddFilter("sav", this._FilterIndex == 2)
                               .WithDescription("Xbox 360 Save Files")
                               .AddFilter("sav", this._FilterIndex == 3)
-                              .WithDescription("PlayStation 3 Save Files"))
+                              .WithDescription("PlayStation 4 Save Files"))
                 .WithFileDo(s => fileName = s)
                 .WithFilterIndexDo(i => filterIndex = i);
 
@@ -95,7 +95,7 @@ namespace Gibbed.TinyTinaAoDK.SaveEdit
                 Platform.Invalid,
                 Platform.PC,
                 Platform.X360,
-                Platform.PS3,
+                Platform.PS4,
             };
 
             fileNameAction(fileName);

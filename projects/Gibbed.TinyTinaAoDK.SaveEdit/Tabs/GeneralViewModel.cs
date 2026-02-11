@@ -119,7 +119,7 @@ namespace Gibbed.TinyTinaAoDK.SaveEdit
             {
                 new PlatformDisplay("PC", Platform.PC),
                 new PlatformDisplay("Xbox 360", Platform.X360),
-                new PlatformDisplay("PlayStation 3", Platform.PS3),
+                new PlatformDisplay("PlayStation 4", Platform.PS4),
             };
         }
 

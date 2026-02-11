@@ -28,7 +28,7 @@ namespace Gibbed.TinyTinaAoDK.GameInfo
         Invalid = 0,
         PC,
         X360,
-        PS3,
+        PS4,
         // ReSharper restore InconsistentNaming
     }
 }

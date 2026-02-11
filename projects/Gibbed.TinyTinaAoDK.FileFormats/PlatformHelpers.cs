@@ -33,12 +33,12 @@ namespace Gibbed.TinyTinaAoDK.FileFormats
             switch (platform)
             {
                 case Platform.PC:
+                case Platform.PS4:
                 {
                     return Endian.Little;
                 }
 
                 case Platform.X360:
-                case Platform.PS3:
                 {
                     return Endian.Big;
                 }
@@ -57,7 +57,7 @@ namespace Gibbed.TinyTinaAoDK.FileFormats
                     return CompressionScheme.LZO;
                 }
 
-                case Platform.PS3:
+                case Platform.PS4:
                 {
                     return CompressionScheme.Zlib;
                 }
